@@ -2,6 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body ::selection {
+    color:rgb(211, 0, 84);
+}
 
 #row1sec1 {
     background-color: #F8F4E3;
