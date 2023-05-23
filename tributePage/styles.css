@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 #row1sec1 {
     background-color: #F8F4E3;
     padding: 20px;
@@ -10,6 +11,14 @@ body {
 #h1s1 {
     text-align: center;
 }
+
+#p1s1 {
+    text-align: justify;
+}
+
+
+
+
 
 #row2sec2 {
     background-color: #c2ccae ; 
@@ -20,11 +29,51 @@ body {
     padding: 20px; 
 }
 
+#h2s2 { 
+    text-align: center;
+}
+
+#p1s2 {
+    text-align: justify;
+}
+
+h5 {
+    text-align: center;
+}
+
+#p2s2 {
+    text-align: justify;
+}
+
+#p3s2 {
+    text-align: justify;
+}
+
+
+
+
 #thirdSection {
     padding: 20px;
     background-color: #F8F4E3;
     
 }
+
+h3 {
+    text-align: center;
+}
+
+#p1s3 {
+    text-align: justify;
+}
+
+#p2s3 {
+    text-align: justify;
+}
+
+#p3s3 {
+    text-align: justify;
+}
+
 #row1sec3 {
     background-color: #F8F4E3;
     padding-top: 20px;
@@ -44,8 +93,19 @@ body {
 
 
 
+
+
 #fourthSection {
     background-color: #c2ccae;
+}
+
+#h2s4 {
+    text-align: center;
+}
+
+#p1s4 {
+    text-align: center;
+    color: rgb(51, 79, 51);
 }
 
 #row1sec4 {
@@ -66,13 +126,45 @@ body {
 }
 
 
+
+
+
 #fifthSection {
     background-color: #F8F4E3;
     
 } 
 
-#lastSection {
-    background-color: #F8F4E3;
-
+#h2s5 {
+    text-align: center;
+    padding-top: 20px;
 }
 
+#p1s5 {
+    text-align: justify;
+    padding-right: 20px;
+}
+
+#h3s5 {
+    padding-top: 40px;
+}
+#pps5 {
+    text-align: center;
+    color: rgb(51, 79, 51);
+}
+
+
+
+
+#lastSection {
+    background-color: #F8F4E3;
+}
+
+#p1l {
+    text-align: center;
+    color:rgb(51, 79, 51)
+}
+ 
+#p2l {
+    text-align: center;
+    color: rgb(51, 79, 51);
+}
