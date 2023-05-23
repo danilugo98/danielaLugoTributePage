@@ -3,7 +3,7 @@ body {
 }
 
 body ::selection {
-    color:rgb(211, 0, 84);
+    color:rgb(157, 0, 63);
 }
 
 #row1sec1 {
@@ -51,6 +51,21 @@ h5 {
 #p3s2 {
     text-align: justify;
 }
+
+#img1s2 {
+    border-radius: 50%;
+}
+
+#img2s2 {
+    border-radius: 50%;
+}
+
+#img3s2 {
+    border-radius: 50%;
+    
+}
+
+
 
 
 
@@ -155,6 +170,47 @@ h3 {
     color: rgb(51, 79, 51);
 }
 
+#formdiv {
+    width: 300px;
+  border: 15px solid rgb(51, 79, 51);
+  padding: 50px;
+  margin: 20px;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+   .text {
+     font-size: 70px;
+   }
+
+ #quotebox {
+    width: 300px;
+  border: 5px solid rgb(51, 79, 51);
+  padding: 30px;
+  background-color: #c2ccae;
+  
+   }
+
+#quoteImg {
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    width: 40px;
+ 
+
+}
+
+
 
 
 
@@ -164,10 +220,10 @@ h3 {
 
 #p1l {
     text-align: center;
-    color:rgb(51, 79, 51)
+    color:#bebbae;
 }
  
 #p2l {
     text-align: center;
-    color: rgb(51, 79, 51);
+    color: #bebbae;
 }
