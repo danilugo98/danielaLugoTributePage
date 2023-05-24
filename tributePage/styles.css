@@ -13,12 +13,13 @@ body ::selection {
 
 #h1s1 {
     text-align: center;
+    vertical-align: middle;
 }
 
 #p1s1 {
     text-align: justify;
+    vertical-align: middle;
 }
-
 
 
 
@@ -175,6 +176,7 @@ h3 {
   border: 15px solid rgb(51, 79, 51);
   padding: 50px;
   margin: 20px;
+  position: static;
 }
 
 .container {
@@ -195,11 +197,18 @@ h3 {
 
  #quotebox {
     width: 300px;
-  border: 5px solid rgb(51, 79, 51);
-  padding: 30px;
-  background-color: #c2ccae;
-  
+    border: 5px solid rgb(51, 79, 51);
+    padding: 30px;
+    background-color: #c2ccae;
    }
+
+#h5quote {
+    padding-top: 10px;
+}
+
+#quote {
+    padding-top: 15px;
+}
 
 #quoteImg {
     border-radius: 50%;
